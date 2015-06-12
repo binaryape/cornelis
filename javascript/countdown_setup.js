@@ -4,7 +4,7 @@ $(document).ready(function () {
     var clock;
 
     var currentDate = new Date();
-    var futureDate = new Date(2015, 5, 12, 14, 10, 0, 0)
+    var futureDate = new Date(2015, 5, 12, 15, 00, 0, 0)
     var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
     clock = $('.clock').FlipClock(diff, {
